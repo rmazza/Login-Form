@@ -1,0 +1,79 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  box-sizing: border-box;
+  background-color: #F8F8F8;
+}
+
+a {
+    text-decoration: none;
+    color: #4959ff;
+}
+
+.container {
+  width: 100%;
+}
+
+#linebreak {
+    width: inherit;
+    height: 2px;
+    background: radial-gradient(circle, #f8f8f8,#f8f8f8, white);
+    margin-top: 10px;
+}
+
+h1 {
+    margin: 0 auto;
+    width: 72px;
+    margin-top: 10px;
+}
+
+.loginForm {
+  margin: 0 auto;
+  width: 300px;
+}
+
+.lBox {
+  background-color: white;
+  display: block;
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 400px;
+  border: 1px solid lightgray;
+  box-shadow: 5px 5px 17px lightgray;
+}
+
+.clearfix:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+label {
+    font-size: 14px;
+    float: left;
+    width: 50%;
+    margin-top: 10px;
+}
+
+span.fPass {
+    font-size: 14px;
+    float: left;
+    width: 50%;
+    text-align: right;
+    margin-top: 10px;
+}
+
+input {
+    width: 300px;
+    box-shadow: inset 0px 0px 1px black;
+    border: none;
+    height: 30px;
+    font-size: 16px;
+    padding-left:5px;
+}
+  
+.subButton {
+  width: 305px;
+  margin: 20px 0 25px 0;
+  clear: left;
+  font-size: 16px;
+}
